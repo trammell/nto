@@ -1,0 +1,27 @@
+Problem:
+
+Write out the Gödel numbers for the integers 0, 1, 2, and 3.
+
+   symbol   code
+   ------   -----
+      0        1
+      s        2
+
+Answers:
+
+The integer 0 has its own symbol (0, code "1")
+
+   2^1 = 2
+
+The integer 1 is the successor to 0 ("s0", codes "2","1")
+
+   2^2 * 3^1 = 12
+
+The integer 2 is ss0 (codes "2", "2", "1")
+
+   2^2 * 3^2 * 5^1 = 4 * 9 * 5 = 180
+
+The integer 3 is sss0 (codes "2", "2", "2", "1")
+
+   2^2 * 3^2 * 5^2 * 7^1 = 4 * 9 * 25 * 7 = 6300
+
