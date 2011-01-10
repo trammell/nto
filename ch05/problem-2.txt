@@ -1,0 +1,18 @@
+Is it possible for two different expressions to have the same Gödel number?
+If so, give an example.  If not, explain the impossibility.
+
+Answer
+------
+
+From http://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic
+
+   In number theory, the fundamental theorem of arithmetic (or the
+   unique-prime-factorization theorem) states that any integer greater than
+   1 can be written as a unique product (up to ordering of the factors) of
+   prime numbers.
+
+Since an integer has a single factorization, each integer corresponds to at
+most one expression.  (It is possible that an integer does not correspond
+to an expression, e.g. the number 2^16 does not translate to an expression
+since no symbol has the code number "16" associated with it.)  So it is not
+possible for two different expressions to have the same Gödel number.
